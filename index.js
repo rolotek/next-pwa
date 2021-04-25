@@ -134,6 +134,7 @@ module.exports = (nextConfig = {}) => ({
             path.join(_dest, sw),
             path.join(_dest, `${sw}.map`),
           ],
+          dry: true,
           dangerouslyAllowCleanPatternsOutsideProject: true,
         })
       );
